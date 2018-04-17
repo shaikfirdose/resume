@@ -1,0 +1,37 @@
+.maindiv{
+  background: green;
+  display: flex;
+  justify-content: space-between;
+}
+.leftdiv{
+  background: pink;
+  width: 25%;
+  position: fixed;
+  text-align: center;
+  border-radius: 5%;
+}
+.rightdiv{
+  background: white;
+  width: 70%;
+  margin-left: 30%;
+}
+.pic{
+  width:75%;
+  border-radius: 5%;
+}
+.l1{
+  margin-top: 2%;
+  border-radius: 5px;
+}
+@media screen and (max-width:768px) {
+.mainDiv{
+flex-wrap: wrap;
+}
+.leftdiv{
+  position:relative;
+}
+.rightdiv{
+margin-left: 0px;
+width: 100%;
+}
+}
